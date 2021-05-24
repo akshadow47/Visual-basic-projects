@@ -1,0 +1,2 @@
+Dim message, sapi
+message=InputBox("What do you want me to say?","Made by Shadow") Set sapi=CreateObject("sapi.spvoice") sapi.Speak message
