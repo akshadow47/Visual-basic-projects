@@ -1,0 +1,79 @@
+Set Sapi = Wscript.CreateObject("SAPI.SpVoice")
+set wshshell = wscript.CreateObject("wscript.shell")
+
+dim Input
+
+Sapi.speak "Please type, what you want to open?"
+Input=inputbox ("Please type, what you want to open.")
+
+
+
+
+
+if Input = "youtube" OR Input = "Youtube"then
+Sapi.speak "Opening youtube"
+wshshell.run "www.youtube.com"
+
+else
+if Input = "netflix" OR Input = "Netflix" then
+Sapi.speak "Opening Netflix"
+wshshell.run "www.Netflix.com"
+
+else
+if Input = "google" OR Input = "Google" then
+Sapi.speak "Opening google"
+wshshell.run "www.google.com"
+
+else
+if Input = "command prompt" OR Input = "Command prompt" OR Input = "cmd" then
+Sapi.speak "Opening command prompt"
+wshshell.run "cmd"
+
+else
+if Input = "calculator" OR Input = "Calculator" then
+Sapi.speak "Opening calculator"
+wshshell.run "calc"
+
+else
+if Input = "notepad" OR Input = "Notepad" then
+Sapi.speak "Opening notepad"
+wshshell.run "notepad"
+
+else
+if Input = "discord" OR Input = "Discord" then
+Sapi.speak "Opening Discord's website"
+wshshell.run "www.discord.com/app"
+
+else
+if Input = "youtube" OR Input = "Youtube"then
+Sapi.speak "Opening youtube"
+wshshell.run "www.youtube.com"
+
+else
+if Input = "Winworld" OR Input = "winworld" then
+Sapi.speak "Opening win world pc's website"
+wshshell.run "www.winworldpc.com"
+
+else
+if Input = "github" OR Input = "Github" then
+Sapi.speak "Opening Github"
+wshshell.run "www.github.com"
+
+
+
+else
+if Input = "" then
+else
+
+
+Sapi.speak "I don't recognize your input, Please try typing something else"
+end if
+end if
+end if
+end if
+end if
+end if
+end if
+end if
+end if
+end if
